@@ -1,0 +1,29 @@
+site_name: HN - Platform Documentation
+theme:
+  name: 'material'
+  logo: 'images/logo.png'
+  favicon: 'images/favicon.ico'
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Why Platforms: platform.md
+  - Tools and Technologies: tools.md
+  - Benefits for Users: benefits.md
+  - Getting Started: getting_started.md
+  - FAQ: faq.md
+  - Installation: install.md
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+extra_javascript:
+  - 'javascripts/extra.js'
+
+plugins:
+  - search
+
+
